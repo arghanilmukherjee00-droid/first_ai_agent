@@ -1,0 +1,16 @@
+{
+  "name": "cursor",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^3.6.1",
+    "readline-sync": "^1.4.10"
+  }
+}
