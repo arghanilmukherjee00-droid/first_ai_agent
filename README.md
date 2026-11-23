@@ -103,14 +103,6 @@ node index.js
 
 Replace `index.js` with your actual entry-point filename if it's different.
 
-## 📸 Project Demo
-
-Add a screenshot of your terminal showing the agent handling multiple tools in a single prompt.
-
-For example:
-
-> Tell me the current time and weather in Kolkata, check whether 97 is prime, and convert 100 USD to INR.
-
 ## 🎯 What I Learned
 
 Building this project was more than just connecting an AI model to some APIs.
