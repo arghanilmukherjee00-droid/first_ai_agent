@@ -249,8 +249,9 @@ async function runAgent(userProblem) {
                     functionDeclarations: [
                         sumDeclaration, primeDeclaration, cryptoDeclaration, weatherDeclaration, timeDeclaration, currencyDeclaration
                     ]
-                }]
-            }
+                }],
+                systemInstruction: 'Respond in a natural, conversational style using simple, clean text.Avoid excessive Markdown formatting. Do not use asterisks (*), bullet points (-), decorative separators, horizontal lines, or unnecessary headings.Write in normal paragraphs like a human chatting. Use numbered lists only when genuinely necessary, such as explaining steps or instructions.Avoid bold text, italic text, and overly structured responses unless I explicitly request formatting.Keep responses natural, clear, and easy to read.',
+            },
         });
 
         if(response.functionCalls && response.functionCalls.length>0){
